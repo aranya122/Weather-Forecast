@@ -1,30 +1,74 @@
-<div class="forecstD">
-    <div class="divider2"></div>
-    <p class="cast-header"> Next 4 days forecast</p>
-    <div class="weekF">
+<!DOCTYPE html>
+<html lang="en">
 
-        <div class="dayF">
-            <p class="date">Sun Jul 03 2024</p>
-            <p>31 °C / 31 °C</p>
-            <p class="desc">Overcast Clouds</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER FORECAST APP</title>
+    <link rel="stylesheet" href="file.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+        <div class="weather-input">
+            <h3>Enter a city Name</h3>
+            <input class="city-input" type="text" placeholder="E.g., India, Delhi, England">
+            <button class="search-btn">Search</button>
+            <div class="separator"></div>
+            <button class="location-btn">Use Current Location</button>
         </div>
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>_____( _____ )</h2>
+                    <h4>Temp:_____°C </h4>
+                    <h4>Wind:_____ M/S</h4>
+                    <h4>Humidity:_____%</h4> 
+                </div>
 
-        <div class="dayF">
-            <p class="date">Sun Jul 03 2024</p>
-            <p>31 °C / 31 °C</p>
-            <p class="desc">Overcast Clouds</p>
-        </div>
+            </div>
+            <div class="days-forecast">
+                <h2>5-Days Forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3>( ______ )</h3>
+                        <h4>Temp:_____°C </h4>
+                        <h4>Wind:_____ M/S</h4>
+                        <h4>Humidity:_____%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( ______ )</h3>
+                        <h4>Temp:_____°C </h4>
+                        <h4>Wind:_____ M/S</h4>
+                        <h4>Humidity:_____%</h4>
 
-        <div class="dayF">
-            <p class="date">Sun Jul 03 2024</p>
-            <p>31 °C / 31 °C</p>
-            <p class="desc">Overcast Clouds</p>
-        </div>
-
-        <div class="dayF">
-            <p class="date">Sun Jul 03 2024</p>
-            <p>31 °C / 31 °C</p>
-            <p class="desc">Overcast Clouds</p>
+                    </li>
+                    <li class="card">
+                        <h3>( ______ )</h3>
+                        <h4>Temp:_____°C </h4>
+                        <h4>Wind:_____ M/S</h4>
+                        <h4>Humidity:_____%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( ______ )</h3>
+                        <h4>Temp:_____°C </h4>
+                        <h4>Wind:_____ M/S</h4>
+                        <h4>Humidity:_____%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( ______ )</h3>
+                        <h4>Temp:_____°C </h4>
+                        <h4>Wind:_____ M/S</h4>
+                        <h4>Humidity:_____%</h4>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
+    <script src="file.js"></script>
+
+</body>
+
+</html>
